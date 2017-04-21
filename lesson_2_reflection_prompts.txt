@@ -11,13 +11,23 @@ More flexible commit.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+compare the difference between working directory and staging area(git diff) and compore the difference between staging area and repository(git diff --staged) to see the differences. 
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+when you want to add a exprimental part or something not in the main direction, branch can help.
+
 How do the diagrams help you visualize the branch structure?
+
+can help us know the link relations between each commit and the branches.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+Two branches will merge together with all changes. The diagram show parents and help find the oringin of two branches.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+convinient but sometimes come across conflicts situations. always manually is too time consumming.
