@@ -3,3 +3,17 @@ I think when many people work one the same project.
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 sometimes we don't need new modifications. we may modify same files.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+forks: github to github
+clones: github to local, local to local
+branches: local
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+Help to know conflict when the project is collabrate of many peple. Also help to merge them.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+discuss with each other, not convinient and not at good control of code.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+when is some modification need other one's advices.
